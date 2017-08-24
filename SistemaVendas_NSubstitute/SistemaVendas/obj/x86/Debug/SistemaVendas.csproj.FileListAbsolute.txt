@@ -1,0 +1,23 @@
+C:\mellon\SistemaVendas\SistemaVendas\bin\Debug\SistemaVendas.exe
+C:\mellon\SistemaVendas\SistemaVendas\bin\Debug\SistemaVendas.pdb
+C:\mellon\SistemaVendas\SistemaVendas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\mellon\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.exe
+C:\mellon\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.pdb
+C:\mellon\github\Turma1Mellon\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.exe
+C:\mellon\github\Turma1Mellon\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.pdb
+C:\mellon\github\Turma1Mellon\SistemaVendas\SistemaVendas\bin\Debug\SistemaVendas.exe
+C:\mellon\github\Turma1Mellon\SistemaVendas\SistemaVendas\bin\Debug\SistemaVendas.pdb
+C:\mellon\github\Turma1Mellon\SistemaVendas\SistemaVendas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\TurmaSP\Net\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.exe
+C:\TurmaSP\Net\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.pdb
+C:\TurmasTestes\PrimeiroDia - Preparado para comecar\Net\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.exe
+C:\TurmasTestes\PrimeiroDia - Preparado para comecar\Net\SistemaVendas\SistemaVendas\obj\x86\Debug\SistemaVendas.pdb
+C:\K21\PrimeiroDia - Preparado para comecar\Net\SistemaVendas_NSubstitute\SistemaVendas\obj\x86\Debug\SistemaVendas.exe
+C:\K21\PrimeiroDia - Preparado para comecar\Net\SistemaVendas_NSubstitute\SistemaVendas\obj\x86\Debug\SistemaVendas.pdb
+C:\K21\CSD\workspace\SistemaVendas_NSubstitute\SistemaVendas\obj\x86\Debug\SistemaVendas.exe
+C:\K21\CSD\workspace\SistemaVendas_NSubstitute\SistemaVendas\obj\x86\Debug\SistemaVendas.pdb
+C:\K21\CSD\workspace\SistemaVendas_NSubstitute\SistemaVendas\bin\Debug\SistemaVendas.exe
+C:\K21\CSD\workspace\SistemaVendas_NSubstitute\SistemaVendas\bin\Debug\SistemaVendas.pdb
+C:\K21\CSD\workspace\SistemaVendas_NSubstitute\SistemaVendas\bin\Debug\NSubstitute.dll
+C:\K21\CSD\workspace\SistemaVendas_NSubstitute\SistemaVendas\bin\Debug\NSubstitute.xml
+C:\K21\CSD\workspace\SistemaVendas_NSubstitute\SistemaVendas\obj\x86\Debug\SistemaVendas.csprojResolveAssemblyReference.cache

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d98c5f7e-9359-4118-91d4-df5acd363f8e" name="cfc@CFC-WINDOWS 2013-03-08 11:58:18" runUser="cfc-windows\cfc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d3654c14-fcf5-4f6a-ac3b-24d3329e6322">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cfc_CFC-WINDOWS 2013-03-08 11_58_18">
+      <DeploymentItem filename="C:\mellon\SistemaVendas\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\mellon\SistemaVendas\SistemaVendas\bin\Debug\SistemaVendas.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-08T11:58:18.8911650-03:00" queuing="2013-03-08T11:58:18.9021657-03:00" start="2013-03-08T11:58:18.9471682-03:00" finish="2013-03-08T11:58:19.2041829-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TesteCalculoComissaoVenda100Retorna5" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="fd53013b-2dc8-1db2-b5f5-ec13ae4fca5c">
+      <Execution id="4ee069e6-b910-4359-9deb-5793589566c8" />
+      <TestMethod codeBase="C:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda100Retorna5" />
+    </UnitTest>
+    <UnitTest name="TesteCalculoComissaoVenda200Retorna10" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="c0258968-f0f0-5010-d946-a029b25db6e5">
+      <Execution id="c0e3b1da-6dc6-4cb1-a9f6-9f77446a956c" />
+      <TestMethod codeBase="C:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda200Retorna10" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c0258968-f0f0-5010-d946-a029b25db6e5" executionId="c0e3b1da-6dc6-4cb1-a9f6-9f77446a956c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd53013b-2dc8-1db2-b5f5-ec13ae4fca5c" executionId="4ee069e6-b910-4359-9deb-5793589566c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c0e3b1da-6dc6-4cb1-a9f6-9f77446a956c" testId="c0258968-f0f0-5010-d946-a029b25db6e5" testName="TesteCalculoComissaoVenda200Retorna10" computerName="CFC-WINDOWS" duration="00:00:00.0257320" startTime="2013-03-08T11:58:18.9521685-03:00" endTime="2013-03-08T11:58:19.1811816-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0e3b1da-6dc6-4cb1-a9f6-9f77446a956c">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ee069e6-b910-4359-9deb-5793589566c8" testId="fd53013b-2dc8-1db2-b5f5-ec13ae4fca5c" testName="TesteCalculoComissaoVenda100Retorna5" computerName="CFC-WINDOWS" duration="00:00:00.0007711" startTime="2013-03-08T11:58:19.1831817-03:00" endTime="2013-03-08T11:58:19.1881820-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ee069e6-b910-4359-9deb-5793589566c8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

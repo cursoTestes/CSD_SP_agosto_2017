@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c4fa7609-1ea0-4814-b576-43dd596dc19e" name="cfc@CFC-WINDOWS 2013-03-08 12:08:06" runUser="cfc-windows\cfc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d3654c14-fcf5-4f6a-ac3b-24d3329e6322">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cfc_CFC-WINDOWS 2013-03-08 12_08_06">
+      <DeploymentItem filename="C:\mellon\SistemaVendas\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\mellon\SistemaVendas\SistemaVendas\bin\Debug\SistemaVendas.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-08T12:08:06.0457484-03:00" queuing="2013-03-08T12:08:06.0527488-03:00" start="2013-03-08T12:08:06.0927510-03:00" finish="2013-03-08T12:08:06.3747672-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TesteCalculoComissaoVenda10000Retorna500" storage="c:\mellon\sistemavendas\testevendas\bin\debug\testevendas.dll" id="166b461e-e1ae-ddb7-ae80-40a53b948e19">
+      <Execution id="2e9d9cc3-1fd8-412f-bc8c-291240faaafb" />
+      <TestMethod codeBase="C:/mellon/SistemaVendas/TesteVendas/bin/Debug/TesteVendas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteVendas.TesteCalculoComissao, TesteVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteCalculoComissaoVenda10000Retorna500" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="166b461e-e1ae-ddb7-ae80-40a53b948e19" executionId="2e9d9cc3-1fd8-412f-bc8c-291240faaafb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e9d9cc3-1fd8-412f-bc8c-291240faaafb" testId="166b461e-e1ae-ddb7-ae80-40a53b948e19" testName="TesteCalculoComissaoVenda10000Retorna500" computerName="CFC-WINDOWS" duration="00:00:00.0331454" startTime="2013-03-08T12:08:06.1007515-03:00" endTime="2013-03-08T12:08:06.3597663-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e9d9cc3-1fd8-412f-bc8c-291240faaafb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;500&gt;. Actual:&lt;10&gt;. </Message>
+          <StackTrace>   em TesteVendas.TesteCalculoComissao.TesteCalculoComissaoVenda10000Retorna500() na C:\mellon\SistemaVendas\TesteVendas\TesteCalculoComissao.cs:linha 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
