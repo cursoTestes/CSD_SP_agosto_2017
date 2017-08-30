@@ -27,6 +27,25 @@ public class VendaDAOTest extends BaseDBTest {
 		assertEquals(esperado, resultado);
 	}
 	
+	@Test
+	public void testTotalVendasParaVendaCompartilhadaComDoisVendedores() {
+		// Arrange
+		Vendedor vendedor = new Vendedor();
+		int entradaIdVendedor = 6;
+		vendedor.setId(entradaIdVendedor);
+		int entradaAno = 2014;
+		double resultado;
+		double esperado = 600.0;
+		
+		// act
+		VendaDAO.setEntityManager(emf.createEntityManager());
+		
+		resultado = VendaDAO.buscarTotalDeVendasPorVendedorEAno(vendedor, entradaAno);
+
+		// asserts
+		assertEquals(esperado, resultado);
+		
+	}
 	
 	@Test
 	public void testVendedorSemVenda() {
@@ -48,3 +67,4 @@ public class VendaDAOTest extends BaseDBTest {
 	
 
 }
+

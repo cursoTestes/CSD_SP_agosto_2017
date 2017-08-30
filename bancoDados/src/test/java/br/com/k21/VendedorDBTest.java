@@ -61,7 +61,6 @@ public class VendedorDBTest extends BaseDBTest
     @Test
     public void testConsultarVendedorVamoLa()
     {
-    	
         VendedorDAO.setEntityManager(emf.createEntityManager());
 
         List<Vendedor> lista = VendedorDAO.findVendedorByNome("Felippe");
@@ -71,9 +70,5 @@ public class VendedorDBTest extends BaseDBTest
         
         //id do usuario felippe
         assertEquals( 2, lista.get(0).getId());
-        
-        assertTrue( "ie ie ", false);
-        
     }
-
 }

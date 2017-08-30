@@ -7,7 +7,18 @@
 	<vendedor id="6" nome="Arlindo Cruz" />
 	<vendedor id="7" nome="Toledo" />
 
-	<venda id="1" valor="100" vendedor_id="2" dataVenda="2011-02-03" />
-	<venda id="2" valor="500" vendedor_id="2" dataVenda="2011-02-04" />
-	<venda id="3" valor="600.88" vendedor_id="2" dataVenda="2012-02-04" />
+	<venda id="1" valor="100" dataVenda="2011-02-03" />
+	<vendaVendedor id="1" vendedor_id="2" venda_id="1" valorParticipacao="100" />
+	
+	<venda id="2" valor="500"  dataVenda="2011-02-04" />
+	<vendaVendedor id="2" vendedor_id="2" venda_id="2" valorParticipacao="500" />
+	
+	<venda id="3" valor="600.88" dataVenda="2012-02-04" />
+	<vendaVendedor id="3" vendedor_id="2" venda_id="3" valorParticipacao="600.88" />
+	
+	<venda id="4" valor="1600" dataVenda="2014-02-04" />
+	<vendaVendedor id="4" vendedor_id="6" venda_id="4" valorParticipacao="600" />
+	<vendaVendedor id="5" vendedor_id="7" venda_id="4" valorParticipacao="1000" />
+		
+	
 </dataset>

@@ -38,11 +38,11 @@ public class VendaDAO {
 
 	public static double buscarTotalDeVendasPorVendedorEAno(Vendedor vendedor,
 			int ano) {
-		Query q = entityManager.createNativeQuery("select sum(v.valor) " +
-				" from venda v " +
-				" where v.vendedor_id = :paramIdVendedor "
-				+ "and year(v.dataVenda) = :paramAno ");
-
+		Query q = entityManager.createNativeQuery("select sum(vv.valorParticipacao) " +
+				"from venda v inner join vendaVendedor vv " +
+				"on v.id = vv.venda_id "
+				+ " where year(dataVenda) = :paramAno"
+				+ " and vv.vendedor_id = :paramIdVendedor");
     	q.setParameter("paramIdVendedor",vendedor.getId());
     	q.setParameter("paramAno", ano);
 

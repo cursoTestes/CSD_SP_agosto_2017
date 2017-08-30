@@ -19,9 +19,6 @@ public class Venda
     
     private Double valor;
     
-    @ManyToOne
-    private Vendedor vendedor;
-   
 	public long getId() {
 		return id;
 	}
@@ -45,13 +42,4 @@ public class Venda
 	public void setDataVenda(Date dataVenda) {
 		this.dataVenda = dataVenda;
 	}
-
-	public Vendedor getVendedor() {
-		return vendedor;
-	}
-
-	public void setVendedor(Vendedor vendedor) {
-		this.vendedor = vendedor;
-	}
-
 }
